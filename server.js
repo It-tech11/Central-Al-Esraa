@@ -120,3 +120,4 @@ app.listen(PORT, () => {
   console.log(`   الموقع: http://localhost:${PORT}`);
   console.log(`   لوحة التحكم: http://localhost:${PORT}/admin.html`);
 });
+module.exports = app;
